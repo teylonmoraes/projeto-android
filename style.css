@@ -20,10 +20,10 @@
 
 }
 
-/* * {
+* {
     margin: 0px;
     padding: 0px;
-} tudo dentro de um (*) se aplica a todo site */
+}
 
 main{
     
@@ -43,7 +43,7 @@ header {
     width: auto;
     min-height: 150px;
     text-align: center;
-    padding: 10px 10px;
+    padding-top: 30px;
 
 }
 header > h1 {
@@ -53,6 +53,7 @@ header > h1 {
     font-style: normal;
     text-transform: uppercase;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.788);
+    padding: 5px;
 
 }
 
@@ -60,6 +61,8 @@ header > p {
     color: rgb(226, 226, 226);
     text-align: center;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.788);
+    padding-top: 5px;
+    padding-bottom: 20px;
 
 }
 
@@ -113,6 +116,7 @@ aside {
     border-radius: 10px 10px 0px 0px;
     padding: 10px;
     margin: 0px;
+    padding: 10px;
     
 }
 
@@ -177,6 +181,7 @@ footer p a {
 h1 {
     font-family: 'iDroid, sans-serif';
     color: var(--cor4);
+    padding: 10px;
 }
 
 
@@ -185,12 +190,14 @@ h1 {
     text-indent: 8px;
     color: var(--cor4);
     background-image: linear-gradient(to right, var(--cor7), var(--cor6));
+    margin: 10px;
  }
 
 
 p {
     color: rgb(71, 71, 71);
     text-align: justify;
+    padding: 10px;
 }
 
 .mascot{
