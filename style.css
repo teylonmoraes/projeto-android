@@ -41,7 +41,6 @@ body{
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     width: auto;
-    min-height: 150px;
     text-align: center;
     padding-top: 30px;
 
